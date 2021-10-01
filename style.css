@@ -23,6 +23,10 @@ input{
     padding: 15px 5px 15px 10px;
 }
 .botao{
+    text-align: center;
+    min-width: 185px;
+    max-width: 350px;
+    padding: 15px 10px 15px 10px;
     cursor: pointer;
     background-color: #555;
     color:#fff;
