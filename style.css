@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+body{
+    background-color: #226;
+}
+.center{
+    display:flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    margin: 10px 0;
+    padding: 15px 5px 15px 10px;
+}
+.botao{
+    cursor: pointer;
+    background-color: #555;
+    color:#fff;
+}
+
+footer{
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+}
+.footer{
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff; 
+    font-size: 15px;
+    font-weight: 900;
+}
+.link{
+    color: #44f;
+}
