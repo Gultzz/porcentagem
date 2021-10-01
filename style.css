@@ -17,6 +17,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10px 5px;
 }
 input{
     margin: 10px 0;
@@ -24,8 +25,6 @@ input{
 }
 .botao{
     text-align: center;
-    min-width: 185px;
-    max-width: 350px;
     padding: 15px 10px 15px 10px;
     cursor: pointer;
     background-color: #555;
